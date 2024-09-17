@@ -1,0 +1,112 @@
+.myimg {
+   width: 350px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    transform: rotate(2deg);
+}
+.myimg:hover {
+    transform: rotate(0deg);
+    border-style: groove;
+    box-shadow: 10px 1px 150px rgb(37, 222, 255);
+}
+@media screen and (max-width:320px) {
+  .myimg {width:250px;margin-left: 30px;}
+}
+@media screen and (min-width:321px) and (max-width:425px) {
+  .myimg {width:250px; margin-left: 80px;}
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+  .myimg {width:250px; margin-left: 90px;}
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+  .myimg {width:300px; margin-left: 40px;}
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+  .myimg {width:350px; margin-left: 90px;}
+}
+.text-gradient,
+.text-gradient > * {
+  background: linear-gradient(to right, red 40%, blue 70%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxx:hover {
+  background: linear-gradient(to right, rgb(127, 163, 243), rgb(163, 15, 207));
+  border-radius:10px;
+  
+}
+.year {
+  color: blueviolet;
+}
+.exbox {
+  color: white;
+  border-radius: 30px;
+  border: solid 1px rgb(73, 73, 73);
+  margin-top: 20px;
+}
+.exbox:hover {
+  background: linear-gradient(to right, rgb(127, 163, 243), rgb(163, 15, 207));
+  
+}
+.immg {
+  position: relative;
+  
+}
+
+.imgbox {
+  position: relative;
+  background-color: rgb(17, 17, 17);
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  filter: grayscale(1);
+  color: rgb(255, 255, 255);
+  
+}
+.imgbox:hover {
+  filter: grayscale(0);
+  transition-timing-function: ease;
+  background-color: rgb(23, 102, 221);
+  transition: 0.2s ease-in;
+  
+}
+.imgbox:hover .immg {
+  transform: scale(1.2);
+  transition-timing-function: ease-in;
+  transition: 1s;
+}
+.colortext {
+  background: linear-gradient(to right, rgb(28, 179, 41), rgb(0, 243, 142));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+  border-radius: 50px;
+  border: 2px solid rgb(228, 28, 178);
+}
+html {
+  scroll-behavior: smooth;
+}
+form span{
+  float: right;
+}
+
+.BTN{
+  position: relative;
+  background: linear-gradient(to left,pink,blue);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+
+}
+.BTN:hover{
+  background: linear-gradient(to right,red pink,);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
